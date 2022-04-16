@@ -3,42 +3,42 @@
       "_id": "1",
       "picture": "https://i.ibb.co/ZYj6F1g/Onlin-course.webp",
       "name": "Online Course",
-      "balance": "$755.00",
-      "description": "Fugiat magna ex est officia ex cillum cillum commodo labore. Culpa mollit voluptate laborum ipsum dolore esse mollit ex consequat ut mollit pariatur ipsum.\r\n"
+      "balance": "$300.00",
+      "description": "A course description is a summary of what students will learn from following an online course. A good course description comes in a few variant lengths, to use in different channels it is published.\r\n"
     },
     {
       "_id": "2",
       "picture": "https://i.ibb.co/DfqBbN3/Remote-Learning.webp",
       "name": "Remote Learning",
-      "balance": "$755.00",
-      "description": "Commodo esse nostrud labore sit eu ad ipsum Lorem consectetur nostrud nulla. Nostrud minim pariatur voluptate voluptate ut pariatur velit eiusmod ad veniam. \r\n"
+      "balance": "$280.00",
+      "description": "Remote Learning occurs when the learner and instructor, or source of information, are separated by distance and cannot meet in a traditional classroom setting.\r\n"
     },
     {
       "_id": "3",
       "picture": "https://i.ibb.co/WsYpKKh/tutor.webp",
       "name": "Private Tutor",
-      "balance": "$755.00",
-      "description": "Commodo pariatur est ex esse dolore dolore enim anim anim ea cillum exercitation nulla reprehenderit. Dolor commodo ea exercitation quis mollit qui laborum.\r\n"
+      "balance": "$350.00",
+      "description": "Private tutor is a specialist trained in helping students comprehend and assimilate the concepts and details of any given subject.      Private tutors work with students on one-on-one basis probably at home or any other place chosen for the purpose of teaching and learning.\r\n"
     },
     {
       "_id": "4",
       "picture": "https://i.ibb.co/nw6fZbt/Consulting.webp",
       "name": "Consulting",
-      "balance": "$755.00",
-      "description": "Ut cillum minim velit et ex consequat commodo enim commodo ullamco esse sint proident. Elit exercitation dolore fugiat quis aliquip velit exercitation commodo. \r\n"
+      "balance": "$500.00",
+      "description": "Consultants offer advice and expertise to organisations to help them improve their business performance in terms of operations, profitability, management, structure and strategy.\r\n"
     },
     {
       "_id": "5",
       "picture": "https://i.ibb.co/tmnKG75/Lectures.webp",
       "name": "Lectures",
-      "balance": "$755.00",
-      "description": "Cillum cillum aute nulla consequat. Aliqua et adipisicing exercitation ad sint id in commodo consectetur dolore. Dolore dolore nisi laboris eu est enim minim aliqua cillum.\r\n"
+      "balance": "$700.00",
+      "description": "Lecturers are subject experts who design, develop, and deliver material using a range of methods and platforms. They create course material, lesson plans, and curricula, conduct research and fieldwork, engage with students, assist with processing applications.\r\n"
     },
     {
       "_id": "6",
       "picture": "https://i.ibb.co/my1rS0q/Lessons-for-Kids.webp",
       "name": "Lessons-for-Kids",
-      "balance": "$755.00",
-      "description": "Proident in exercitation aliquip proident cillum ea. Nostrud labore occaecat exercitation esse fugiat duis sit labore. In officia quis ea sit consequat elit aliquip ea excepteur voluptate reprehenderit anim. \r\n"
+      "balance": "$455.00",
+      "description": "You will not be happy “when” something happens any more than you can choose to be happy now.  Goals and dreams are important, but being thankful for the every day is what makes daily life rewarding.  Gratitude grounds us in what is truly important. \r\n"
     }
   ]
