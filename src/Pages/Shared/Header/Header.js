@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Navbar sticky='top' bg="light" expand="lg" >
         <Container>
-          <Navbar.Brand href="#home" className='text-success fw-bold'>Edu-Phi</Navbar.Brand>
+          <Navbar.Brand href="#home" className='text-success fw-bold'>Edu-Pi</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">

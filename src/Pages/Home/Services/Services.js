@@ -10,7 +10,7 @@ const Services = () => {
             .then(data => setServices(data));
     }, [])
     return (
-        <div id="services">
+        <div className='mt-5' id="services">
             <p><b>
                 My Services
             </b></p>
@@ -18,7 +18,7 @@ const Services = () => {
             <div className='row container mx-auto'>
                 {
                     services.map(service => <Service
-                        key={service._id}
+                        key={service.id}
                         service={service}
                     ></Service>)
                 }
