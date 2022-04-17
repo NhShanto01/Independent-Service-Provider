@@ -5,7 +5,9 @@ import github from '../../../image/social-logos/github.png';
 import { useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
-// import Loading from '../../Shared/Loading/Loading';
+import './SocialLogin.css';
+import Loading from '../../Home/Loading/Loading';
+
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -16,7 +18,7 @@ const SocialLogin = () => {
     let errorElement;
 
     if(loading || loading1 ||loading2){
-        return 
+        return <Loading></Loading>
     }
 
     if (error || error1||error2) {
@@ -38,7 +40,7 @@ const SocialLogin = () => {
             <div className=''>
                 <button
                     onClick={() => signInWithGoogle()}
-                    className='btn btn-white w-50 d-block mx-auto my-2 border'>
+                    className='btn btn-light w-50 d-block mx-auto my-2 border-secondary'>
                     <img style={{ width: '30px' }} src={google} alt="" />
                     <span className='px-2'>Google Sign In</span>
                 </button>
