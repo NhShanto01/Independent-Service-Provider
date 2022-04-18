@@ -39,7 +39,7 @@ const Blog = () => {
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>Q3 : Why are you using firebase and what other options do you have to implement authentication? </Accordion.Header>
                         <Accordion.Body>
-                            
+                           
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

@@ -10,9 +10,9 @@ import './Header.css'
 const Header = () => {
   const [user] = useAuthState(auth);
 
-  const handleSignOut = () =>{
+  const handleSignOut = () => {
     signOut(auth);
-}
+  }
 
   return (
     <Navbar sticky='top' bg="light" expand="lg" >
@@ -26,9 +26,12 @@ const Header = () => {
             <Nav.Link as={CustomLink} to="blog">Blog</Nav.Link>
             <Nav.Link as={CustomLink} to="about">About Me</Nav.Link>
           </Nav>
+          
+          {user ? <p className='mt-3 text-success fw-bold me-4'>User name : {user?.displayName}</p> : ""}
+
           {
             user ?
-              <button className='btn btn-link text-success fw-bold text-decoration-none'  onClick={handleSignOut}>sign out</button>
+              <button className='btn btn-link text-success fw-bold text-decoration-none' onClick={handleSignOut}>sign out</button>
               :
               <Nav.Link className='text-success fw-bold' as={Link} to="login">
                 Login
