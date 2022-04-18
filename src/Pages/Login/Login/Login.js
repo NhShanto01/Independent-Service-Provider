@@ -56,7 +56,7 @@ const Login = () => {
             toast('Sent email');
         }
         else {
-            toast('please enter your email address');
+            toast.warn('please enter your email address');
         }
     }
 

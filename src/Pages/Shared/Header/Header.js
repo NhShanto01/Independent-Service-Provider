@@ -10,14 +10,14 @@ import './Header.css'
 const Header = () => {
   const [user] = useAuthState(auth);
 
-  const handleSignOut = () => {
+  const handleLogOut = () => {
     signOut(auth);
   }
 
   return (
     <Navbar sticky='top' bg="light" expand="lg" >
       <Container>
-        <Navbar.Brand as={Link} to="home" className='text-success fw-bold'>Edu-Pi</Navbar.Brand>
+        <Navbar.Brand as={Link} to="home" className='text-success fw-bold'>Edu-Phillip</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
@@ -31,7 +31,7 @@ const Header = () => {
 
           {
             user ?
-              <button className='btn btn-link text-success fw-bold text-decoration-none' onClick={handleSignOut}>sign out</button>
+              <button className='btn btn-link text-success fw-bold text-decoration-none' onClick={handleLogOut}>Logout</button>
               :
               <Nav.Link className='text-success fw-bold' as={Link} to="login">
                 Login

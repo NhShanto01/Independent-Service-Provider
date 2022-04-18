@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const CheckOut = () => {
 
     const handleSubmitBtn = () => {
-        toast.success("Thank You for ")
+        toast.success("Thank You for Checkout")
     }
 
     return (

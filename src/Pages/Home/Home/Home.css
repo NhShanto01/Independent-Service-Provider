@@ -3,12 +3,10 @@
 }
 .home-container img{
     width: 450px;
-   
+
 }
-/* @media only screen and (max-width:576px) {
-    .home-container,
-    .home-text,
-    .home-img {
-        grid-template-columns: repeat(1, 1fr);
+@media only screen and (max-width:576px) {
+    .home-container img{
+        width: 200px;
     }
-} */
+}
