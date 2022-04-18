@@ -12,7 +12,7 @@ const CheckOut = () => {
 
     return (
         <div className='container w-50'>
-            <h1>Checkout Form</h1>
+            <h1 className='text-success mt-5 mb-5'>Checkout Form</h1>
             <Form>
 
                 <Form.Group className='mb-3' controlId="formGridEmail">
@@ -39,7 +39,31 @@ const CheckOut = () => {
                 </FloatingLabel>
 
                 <Form.Group className="mb-3 text-start" id="formGridCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+
+                    <Form>
+                        {['radio'].map((type) => (
+                            <div key={`inline-${type}`} className="mb-3">
+                                <h4
+                                className='text-success'
+                                >Payment with</h4>
+                                <Form.Check
+                                    inline
+                                    label="Online Payment"
+                                    name="group1"
+                                    type={type}
+                                    id={`inline-${type}-1`}
+                                />
+                                <Form.Check
+                                    inline
+                                    label="Cash On Hand"
+                                    name="group1"
+                                    type={type}
+                                    id={`inline-${type}-2`}
+                                />
+                            </div>
+                        ))}
+                    </Form>
+
                 </Form.Group>
 
                 <button onClick={handleSubmitBtn} className='btn btn-success'>Submit </button>

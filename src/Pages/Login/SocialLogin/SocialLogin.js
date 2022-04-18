@@ -5,8 +5,8 @@ import github from '../../../image/social-logos/github.png';
 import { useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
-import './SocialLogin.css';
 import Loading from '../../Home/Loading/Loading';
+import './SocialLogin.css';
 
 
 const SocialLogin = () => {
@@ -37,23 +37,24 @@ const SocialLogin = () => {
                 <div style={{ height: '1px' }} className='bg-success w-50'></div>
             </div>
             {errorElement}
-            <div className=''>
+            <div className='social-btn'>
                 <button
                     onClick={() => signInWithGoogle()}
-                    className='btn btn-light w-50 d-block mx-auto my-2 border-secondary'>
-                    <img style={{ width: '30px' }} src={google} alt="" />
-                    <span className='px-2'>Google Sign In</span>
+                    className='button btn btn-light sm:w-100 d-block mx-auto my-2 border-secondary'>
+                    <img className='btn-img' style={{ width: '30px' }} src={google} alt="" />
+                    <span className='btn-title px-2'>Google Sign In</span>
                 </button>
                 <button
-                    onClick={() => signInWithFacebook()} className='btn btn-primary w-50 d-block mx-auto my-2'>
-                    <img style={{ width: '30px' }} src={facebook} alt="" />
-                    <span className='px-2'>Facebook Sign In</span>
+                    onClick={() => signInWithFacebook()}
+                    className='button btn btn-primary sm:w-100 d-block mx-auto my-2'>
+                    <img className=' btn-img' style={{ width: '25px' }} src={facebook} alt="" />
+                    <span className='btn-title px-2'>Facebook Sign In</span>
                 </button>
                 <button
                     onClick={() => signInWithGithub()}
-                    className='btn btn-dark w-50 d-block mx-auto'>
-                    <img style={{ width: '30px' }} src={github} alt="" />
-                    <span className='px-2'>Github Sign In</span>
+                    className='button btn btn-dark sm:w-100 d-block mx-auto'>
+                    <img className='btn-img' style={{ width: '30px' }} src={github} alt="" />
+                    <span className='btn-title px-2'>Github Sign In</span>
                 </button>
             </div>
         </div>
