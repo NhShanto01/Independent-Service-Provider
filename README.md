@@ -1,6 +1,6 @@
 # Assignment-10
 
-## This Project was lived as a project name [Edu-Phillip]( edu-phillip.web.app )
+## This Project was lived as a project name [Edu-Phillip]( https://edu-phillip.web.app/ )
 
 
 ## Describe website 

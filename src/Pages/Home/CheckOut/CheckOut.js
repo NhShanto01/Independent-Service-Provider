@@ -1,14 +1,12 @@
 import React from 'react';
 import { FloatingLabel, Form } from 'react-bootstrap';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { Link } from 'react-router-dom';
+
 
 
 const CheckOut = () => {
 
-    const handleSubmitBtn = () => {
-        toast.success("Thank You for Checkout")
-    }
+    
 
     return (
         <div className='container w-50'>
@@ -66,9 +64,9 @@ const CheckOut = () => {
 
                 </Form.Group>
 
-                <button onClick={handleSubmitBtn} className='btn btn-success'>Submit </button>
+                <Link to="/CheckoutMessage" className='btn btn-success'>Submit</Link> 
             </Form>
-            <ToastContainer closeButton={false} position="top-center" />
+            
         </div>
     );
 };
